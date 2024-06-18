@@ -1,6 +1,9 @@
 class Book with JsonSerializable {
+  @override
   String? title;
+  @override
   String? author;
+  @override
   int? numberOfPages;
 
   Book(this.title, this.author, this.numberOfPages);

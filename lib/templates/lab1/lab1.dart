@@ -60,7 +60,7 @@ class LAb1HomePage extends StatelessWidget {
   }
 
   Widget exercise1() {
-    return Text(
+    return const Text(
       "Hello Flutter!",
       style: TextStyle(
           fontSize: 100, color: Colors.red, fontWeight: FontWeight.bold),
@@ -68,7 +68,7 @@ class LAb1HomePage extends StatelessWidget {
   }
 
   Widget exercise2() {
-    return Icon(Icons.home, size: 100, color: Colors.blue);
+    return const Icon(Icons.home, size: 100, color: Colors.blue);
   }
 
   Widget exercise3() {
